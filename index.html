@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href=" img/favicon.png" rel="icon">
+  <link href=" img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href=" vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href=" vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href=" vendor/aos/aos.css" rel="stylesheet">
+  <link href=" vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href=" vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href=" css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="index-page">
+  <style>
+    .btn {
+      width: 200px; 
+      height: 40px;
+      margin-top: 20px;
+      border-radius: 50px;
+      border: none;
+      outline: none;
+      background: linear-gradient(45deg, #aadff4 0%, #757492 60%);
+      font-size: 19px;
+      font-weight: 500;
+      color: #eee;
+      position: relative;
+      cursor: pointer;
+      z-index: 1;
+      overflow: hidden;
+      transition: background 0.3s ease;
+  }
+  
+  .btn::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(45deg, #755a73 0%, #495357 60%);
+      transition: width 0.5s ease;
+      z-index: -1;
+  }
+  
+  .btn:hover {
+      color: #beaaaa;
+      background: linear-gradient(45deg, #8a979c 0%, #867585 60%);
+  }
+  
+  .btn:hover::before {
+      width: 100%;
+  }
+    </style>
+
+  <header id="header" class="header d-flex flex-column justify-content-center">
+
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
+        <li><a href="#projects"><i class="bi bi-images navicon"></i><span>Projects</span></a></li>
+        <li><a href="#Certificates"><i class="bi bi-images navicon"></i><span>Certificates</span></a></li>
+        <li><a href="#achievements"><i class="bi bi-hdd-stack navicon"></i><span>Achivements</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src=" img/beachprofile.jpg" alt="">
+
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2>Iyswari A</h2>
+            <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/iyswari-a-8b171a28b"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>My name is Iyswari and I am currently a pre-final year student pursuing a Bachelor's degree in Computer Science Engineering at Grace of Engineering. I am a highly enthusiastic and competitive individual, dedicated to contributing to team success through hard work, meticulous attention to detail, and excellent organizational skills.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src=" img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>FrontEnd &amp; Web Developer</h2>
+            <p class="fst-italic py-3">
+              <b>My Expertise..</b><br>
+              
+             I have a strong foundation in various programming languages, including C and Python. My proficiency in these languages has allowed me to tackle complex problems and develop efficient solutions. Additionally, I have specialized skills in web development, where I have designed and implemented several projects that showcase my ability to create dynamic and responsive web applications.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>17 June 2003</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9751913009</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>TamilNadu, India</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BE</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>iyswariamalraj123@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+            <b>Passion for Technology..</b><br>
+            
+              My passion for technology extends to experimental areas and coding. I am always eager to explore new technologies and methodologies to stay ahead in the rapidly evolving tech landscape. My curiosity drives me to experiment with innovative ideas and integrate them into practical applications.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Proficient in programming languages such as C, HTML/CSS, DBMS/MySQL, JavaScript, and Python, I am skilled in front-end and development. My expertise spans system-level programming, creating user-friendly web interfaces, managing databases, and developing dynamic web applications. Additionally, my strong grasp of data structures and algorithms enables me to solve complex problems efficiently and create optimized software solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                </div>
+
+               <div class="progress">
+                  <span class="skill"><span>MySQL</span> <i class="val">85%</i></span>
+                  <div class="progress-bar-wrap">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>C</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>DataStructures</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>Photoshop</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+            
+            <div class="progress">
+              <span class="skill"><span>DBMS</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+          </div><!-- End Skills Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+          <h2>Resume</h2>
+          <p>Aspiring to leverage my proficiency in C, HTML/CSS, DBMS/MySQL, JavaScript,
+            Python, and a solid understanding of data structures and algorithms to contribute
+             to innovative projects in a dynamic and collaborative environment. Eager to continue
+              growing professionally by embracing new challenges and learning opportunities. Passionate
+               about technology and driven by a desire to solve complex problems and make a positive impact
+                through optimized and high-performance software solutions.</p>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <h3 class="resume-title">Summary</h3>
+                  <div class="resume-item pb-0">
+                      <h4><b>Iyswari A</b></h4>
+                      <p><em>As a computer science engineer, I design and develop software systems and applications, specializing in HTML and front-end development.</em></p>
+                      <ul>
+                          <li>Tuticorin-628001</li>
+                          <li>9751913009</li>
+                          <li>iyswariamaltraj123@gmail.com</li>
+                      </ul>
+                  </div>
+                  <h3 class="resume-title">Education</h3>
+                  <div class="resume-item">
+                      <h4><B>Bachelor of Engineering in Computer Science</B></h4>
+                      <h5>GRACE COE, CGPA: 8.44</h5>
+                  </div>
+                  <div class="resume-item">
+                      <h4><b>Higher Secondary Schooling</b></h4>
+                      <h5>St. JOSEPH Girls Higher Secondary School, 93.6%</h5>
+                  </div>
+                  <div class="resume-item">
+                      <h4><b>Secondary Schooling</b></h4>
+                      <h5>St. JOSEPH'S Girls Higher Secondary School, 93%</h5>
+                  </div>
+                  <h3 class="resume-title">Projects</h3>
+                  <div class="resume-item">
+                      <h4><b>Weather App</b></h4>
+                      <p>Invented a Weather App in which current weather can be identified.</p>
+                  </div>
+                  <div class="resume-item">
+                      <h4><b>E-Commerce Website</b></h4>
+                      <p>Designed a E-Commerce Website for Fashion & Clothing</p>
+                  </div>
+                  <div class="resume-item">
+                    <h4><b>DDOS Detection</b></h4>
+                    <p>Developed a Python code to determine DDOS attack.</p>
+                </div>
+                <div class="resume-item">
+                  <h4><b>Simple Calculator</b></h4>
+                  <p>Implemented a HTML code for Simple Calculator.</p>
+              </div>
+              <h3 class="resume-title">Software Skills</h3>
+                  <div class="resume-item">
+                      <ul>
+                          <li>Figma, Canva, Unity, ArgoUML, MIT App Inventor, Krita, Gimp</li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                  <h3 class="resume-title">Achievements</h3>
+                  <div class="resume-item">
+                      <h4><b>Full Stack Development Intern</b></h4>
+                      <p>June - July</p>
+                  </div>
+                  <div class="resume-item">
+                      <h4><b>Top Marks</b></h4>
+                      <p>1st Mark in both SSLC and HSC in St. JOSEPH'S Girls Higher Secondary School.</p>
+                  </div>
+                  <div class="resume-item">
+                    <h4><b>TCS ION</b></h4>
+                    <p>Certified by 'Communication Skill'</p>
+                </div>
+                <div class="resume-item">
+                  <h4><b>Symposium</b></h4>
+                  <p>Presented paper on'DDOS attack & Ethical Hacking'at JACSI College.</p>
+              </div>
+                <div class="resume-item">
+                  <h4><b>Event</b></h4>
+                  <p>Certified as Best in Drawing in Intra College Symposium.</p>
+              </div>
+              <h3 class="resume-title">Skills</h3>
+              <div class="resume-item">
+                  <ul>
+                      <li>C and Python Programming, HTML/CSS, DBMS/MySQL, JavaScript, DataStructures and Algorithms</li>
+                  </ul>
+              </div>
+                  <h3 class="resume-title">Languages Known</h3>
+                  <div class="resume-item">
+                      <ul>
+                          <li>Tamil</li>
+                          <li>English</li>
+                      </ul>
+                  </div>
+                  <h3 class="resume-title">Hobbies</h3>
+                  <div class="resume-item">
+                      <ul>
+                          <li>Drawing, Music, Editing</li>
+                      </ul>
+                  </div>
+                  <div class="text-center mt-4">
+                    <a href=" img/RESUME_ (1).pdf" class="btn btn-primary" download>Download Resume</a>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section><!-- /Resume Section -->
+  <section id="projects" class="portfolio section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Projects</h2>
+      <p>Our projects showcase creativityand quality,Whether it's Web or App.Our projects are build to provide great user experience and drive success.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active"><b>All</b></li>
+          <li data-filter=".filter-web"><b>Web</b></li>
+          <li data-filter=".filter-software"><b>Software</b></li>
+          <li data-filter=".filter-app"><b>App</b></li>
+        </ul>
+
+        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+            <img src=" img/project/e2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-Commerce Website</h4>
+              <p>Designed a E-Commerce website for Fashion and Clothing..<br>
+                 <b>Used:</b> HTML and CSS</p>
+              <a href=" img/project/e2.png" title="Web Design" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+            <img src=" img/project/unity.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Unity Design</h4>
+              <p>Designed in Unity for Game Development..<br>
+                <b>Used:</b> Unity
+              </p>
+              <a href=" img/project/unity.png" title="Software Design" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src=" img/project/page1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Weather App(1)</h4>
+              <p>Invented a Weather App in which current weather can be identified..<br>
+                <b>Used:</b> MIT App Inventor</p>
+              <a href=" img/project/page1.jpg" title="App Design" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+            <img src=" img/project/choco.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Webpage design</h4>
+              <p>Designed a Webpage for Choco Candy..<br>
+                <b>Used:</b> HTML and CSS</p>
+              <a href=" img/project/choco.png" title="Webpage Design" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> 
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-software">
+            <img src=" img/project/green.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Awareness Poster</h4>
+              <p>Designed a Awareness Poster for  Implement a Green Environment..<br>
+              <b>Used:</b> Canva</p>
+              <a href=" img/project/green.jpg" title="Software Design" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+            <img src=" img/project/page2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Weather App(2)</h4>
+              <p>Invented a Weather App in which current weather can be identified..<br>
+              <b>Used:</b> MIT App Inventor</p>
+              <a href=" img/project/page2.jpg" title="App Design" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> 
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+            <img src=" img/project/calculator.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Simple Calculator</h4>
+              <p>Implemented a Calculator for Calculate..<br>
+              <b>Used:</b> HTML,CSS & JavaScript</p>
+              <a href=" img/project/calculator.png" title="Design" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+    <!-- Portfolio Section -->
+    <section id="Certificates" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certificates</h2>
+        <p>Here are some of the certificates I've earned through my hard work and dedication.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active"><b>All</b></li>
+            <li data-filter=".filter-intern"><b>Interns</b></li>
+            <li data-filter=".filter-cource"><b>Courses</b></li>
+            <li data-filter=".filter-event"><b>Others</b></li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-intern">
+              <img src=" img/certificate/exposys.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Intern</h4>
+                <p>ExposysDataLabs -Full Stack Developer</p>
+                <a href=" img/certificate/exposys.jpg" title="Intern" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cource">
+              <img src=" img/certificate/ec.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cource</h4>
+                <p>EC Council -Python 3 with Turtle</p>
+                <a href=" img/certificate/ec.jpg" title="Cource" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> 
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cource">
+              <img src=" img/certificate/nikis.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cource</h4>
+                <p>Nikistian Media Private Limited -Ethical Hacking</p>
+                <a href=" img/certificate/nikis.jpg" title="Cource" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/jack.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Symposium -Paper Presentation</h4>
+                <p>Jeyaraj Annapackiam CSI College Of Engineering,Nazareth</p>
+                <a href=" img/certificate/jack.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/fiesta.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Symposium -Poster Making</h4>
+                <p>Grace College Of Engineering,Thoothukudi</p>
+                <a href=" img/certificate/fiesta.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/mark.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>GRACIA'24 -Semester Examination</h4>
+                <p>Grace College Of Engineering,Thoothukudi</p>
+                <a href=" img/certificate/mark.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> 
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-intern">
+              <img src=" img/certificate/marcello1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Intern</h4>
+                <p>Marchello Tech-Trichy -Artificial Intelligence</p>
+                <a href=" img/certificate/marcello1.jpg" title="Intern" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cource">
+              <img src=" img/certificate/skill.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cource</h4>
+                <p>Skill Nation -Microsoft Copilot</p>
+                <a href=" img/certificate/skill.jpg" title="Cource" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cource">
+              <img src=" img/certificate/tcs.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cource</h4>
+                <p>TCS ION -Communication Skills</p>
+                <a href=" img/certificate/tcs.jpg" title="Cource" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/pope.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Symposium -Paper Presentation</h4>
+                <p>Dr.G.U. Pope College Of Engineering,SawyerPuram</p>
+                <a href=" img/certificate/pope.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/ig.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Event -Innovative Ideas</h4>
+                <p>St.Ignatius Hr.Sec.School,Thoothukudi</p>
+                <a href=" img/certificate/ig.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/ball.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Zone Level Sports Event -Basket Ball</h4>
+                <p>A.P.C.V HR.Sec.School,Millerpuram</p>
+                <a href=" img/certificate/ball.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+            
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-intern">
+              <img src=" img/certificate/marcello2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Intern</h4>
+                <p>Marcello Tech-Trichy -Mobile App Development with Flutter and Dart</p>
+                <a href=" img/certificate/marcello2.jpg" title="Intern" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cource">
+              <img src=" img/certificate/infosys.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cource</h4>
+                <p>Infosys -Introduction to Cloud Computing</p>
+                <a href=" img/certificate/infosys.jpg" title="Cource" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-cource">
+              <img src=" img/certificate/webinar.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Cource</h4>
+                <p>NIPAM Webinar -IP Awareness Training Program</p>
+                <a href=" img/certificate/webinar.jpg" title="Cource" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/paint.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>School Level Event -Painting</h4>
+                <p>St.Joseph's Girls Hr.Sec.School,Thoothukudi</p>
+                <a href=" img/certificate/paint.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-event">
+              <img src=" img/certificate/tech.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Symposium -Drawing</h4>
+                <p>Grace College Of Engineering,Thoothukudi</p>
+                <a href=" img/certificate/tech.jpg" title="Event" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Achievement Section -->
+    <section id="achievements" class="achievements section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+          <h2>Achievements</h2>
+          <p>Here are some of the notable achievements and milestones accomplished over the years.</p>
+      </div><!-- End Section Title -->
+  
+      <div class="container">
+  
+          <div class="row gy-4">
+  
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                  <div class="achievement-item item-cyan position-relative">
+                      <div class="icon">
+                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                          </svg>
+                          <i class="bi bi-trophy"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                          <h3>Top Marks in SSLC and HSC</h3>
+                      </a>
+                      <p>Achieved first place in both SSLC and HSC exams at St. JOSEPH'S Girls Higher Secondary School.</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                  <div class="achievement-item item-orange position-relative">
+                      <div class="icon">
+                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                          </svg>
+                          <i class="bi bi-award"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                          <h3>Full Stack Development Intern</h3>
+                      </a>
+                      <p>Completed an internship in Full Stack Development from June to July.</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                  <div class="achievement-item item-teal position-relative">
+                      <div class="icon">
+                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                          </svg>
+                          <i class="bi bi-briefcase"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                          <h3>Developed Weather App</h3>
+                      </a>
+                      <p>Created a Weather App that provides current weather updates.</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                  <div class="achievement-item item-red position-relative">
+                      <div class="icon">
+                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812935296697,71.27536652703534,244.92864548620607C48.616060241017394,320.1697591191896,17.856194344223223,402.97969725405544,65.63467826672999,464.9771983565979C113.85027881834887,527.528544007168,215.4265867363371,500.9382415065637,300,503.46388370962813"></path>
+                          </svg>
+                          <i class="bi bi-gear"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                          <h3>“TECH HORIZON 2K23”</h3>
+                      </a>
+                      <p>I won I prize in the drawing event in the Intra College Symposium “TECH HORIZON 2K23” Organized by Department of Computer Science, Grace College of Engineering on 18th March 2023.</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                  <div class="achievement-item item-pink position-relative">
+                      <div class="icon">
+                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,525.9895573426914C372.6339485628848,522.4458481841542,441.51104120459476,477.98767556732025,488.3926482656892,418.5969572762781C534.3742482013991,359.81268026402086,551.844386641084,282.5356834660721,538.6798052844878,208.90284032090575C525.496250905919,135.00280179488253,460.52383552623663,78.39028726788738,392.7770241485229,47.01238470514153C322.6402252504343,14.913468526049428,239.54234035530556,8.702250231314544,170.34862234926513,40.598097152153734C104.10000214568486,71.4246100894064,80.01016108047835,143.90678166347307,56.29893076368817,214.76379934436652C30.695842592077263,295.6059283672876,-4.639816146208867,390.370922551375,44.94912588292471,463.2825928054916C95.18338971288955,537.3065474052628,198.74682973956916,530.7892056195744,300,525.9895573426914"></path>
+                          </svg>
+                          <i class="bi bi-globe"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                          <h3>International Women's Day</h3>
+                      </a>
+                      <p>I won I prize in the drawing event organized to celebrate International Women’s Day at Grace College of Engineering on 8th March.</p>
+                  </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                  <div class="achievement-item item-yellow position-relative">
+                      <div class="icon">
+                          <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,553.9262734231107C377.47322862314954,549.5014323585507,462.07300620261484,550.2359079817587,513.1225973423537,491.861371318477C562.8001199027583,435.31813889723106,544.3168488365997,349.1282166981548,517.5741701338462,274.23261560164475C491.795254206519,201.13034744326197,441.05559522064833,132.14414408685865,370.41347175078284,108.50724401341735C301.80375027171374,85.67520908433282,231.06306595073454,111.97215564625945,168.53980536235903,145.1594313734844C112.47996238996702,175.1864785314648,72.53502267476723,225.61315711602527,53.90745031055788,288.6113495249938C32.64492619621716,358.96333009155897,24.114121932933996,440.2375672404233,75.97072186854614,500.12219859192885C127.99854489648816,560.1717717451517,216.10696015798833,558.3988782684765,300,553.9262734231107"></path>
+                          </svg>
+                          <i class="bi bi-star"></i>
+                      </div>
+                      <a href="#" class="stretched-link">
+                          <h3>“GRACE FIESTA 2K24”</h3>
+                      </a>
+                      <p>I won II prize in the drawing event in the Symposium “GRACE FIESTA 2K24” Organized by Department of MBA,Grace College of Engineering.</p>
+                  </div>
+              </div>
+  
+          </div>
+  
+      </div>
+  </section><!-- /Archievement Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>165A/5A/1 Cruzpuram,Tuticorin-628001</p>
+              </div>
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+91 9751913009</p>
+              </div>
+            </div>
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>iyswariamalraj123@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+    <div class="container">
+      <h3 class="sitename">Iyswari A</h3>
+      <p>Thankyou for visiting my site.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href="https://www.linkedin.com/in/iyswari-a-8b171a28b"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <span>Copyright</span> <strong class="px-1 sitename">@Iyswari</strong> <span>All Rights Reserved</span>
+        </div>
+        <div class="credits">
+          <a href="https://bootstrapmade.com/"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src=" vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src=" vendor/php-email-form/validate.js"></script>
+  <script src=" vendor/aos/aos.js"></script>
+  <script src=" vendor/typed.js/typed.umd.js"></script>
+  <script src=" vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src=" vendor/waypoints/noframework.waypoints.js"></script>
+  <script src=" vendor/glightbox/js/glightbox.min.js"></script>
+  <script src=" vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src=" vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src=" vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src=" js/main.js"></script>
+
+</body>
+
+</html>
