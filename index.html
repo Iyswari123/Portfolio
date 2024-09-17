@@ -304,6 +304,11 @@
                       <p>Invented a Weather App in which current weather can be identified.</p>
                   </div>
                   <div class="resume-item">
+                    <h4><b>Weather Dashboard</b></h4>
+                    <p>Designed a weather dashboard to know the current weather forcast.</p>
+                    <p>Link: <a href="https://iyswari123.github.io/CODTECH-Task2/" target="_blank">Weather Dashboard</a></p>
+                </div>
+                  <div class="resume-item">
                       <h4><b>E-Commerce Website</b></h4>
                       <p>Designed a E-Commerce Website for Fashion & Clothing</p>
                   </div>
@@ -460,11 +465,39 @@
               <a href=" img/project/calculator.png" title="Design" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
             </div>
           </div>
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+            <img src=" img/project/weather.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Weather Dashobard</h4>
+              <p>Intern Project for knowing the weather forcast<br>
+              <b>Used:</b> HTML,CSS, JavaScript& API</p>
+              <a href=" img/project/weather.png" title="Design" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    
+    <!-- Isotope initialization -->
+    <script>
+      $(document).ready(function(){
+        var $grid = $('.isotope-container').isotope({
+          itemSelector: '.portfolio-item',
+          layoutMode: 'masonry'
+        });
+    
+        $('.portfolio-filters li').on('click', function() {
+          $('.portfolio-filters li').removeClass('filter-active');
+          $(this).addClass('filter-active');
+    
+          var filterValue = $(this).attr('data-filter');
+          $grid.isotope({ filter: filterValue });
+        });
+      });
+    </script>
   </section>
 
     <!-- Portfolio Section -->
